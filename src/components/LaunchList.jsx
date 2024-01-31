@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { SimpleGrid, Center, Heading, Container } from '@chakra-ui/react';
-import { LaunchItem } from './Launchitem';
+import { LaunchItem } from './LaunchItem';
 import * as API from "../services/launches";
+
 
 export function LaunchList() {
   const [launches, setLaunches] = useState([]);
